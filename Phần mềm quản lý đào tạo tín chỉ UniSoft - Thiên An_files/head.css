@@ -1,0 +1,251 @@
+
+.banner .khungAnh:before {
+  padding-bottom: 28%;
+}
+.banner .slick-next:before {
+  color: transparent !important;
+}
+.banner .slick-next.slick-arrow {
+  top: 50%;
+  right: 25px;
+  position: absolute;
+  z-index: 1;
+  background: url("../images/banner-right.png") no-repeat center center;
+  height: 38px;
+  width: 38px;
+}
+.banner {
+  width: 100%;
+}
+.banner .slick-prev:before {
+  color: transparent !important;
+}
+.banner .slick-prev.slick-arrow {
+  top: 50%;
+  left: 25px;
+  position: absolute;
+  z-index: 1;
+  background: url("../images/banner-left.png") no-repeat center center;
+  height: 38px;
+  width: 38px;
+}
+/* ============================ */
+#header{
+  width: 100%;
+  height: 158px;
+  z-index: 6;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+#header #logo{
+  float: left;
+ 
+  padding: 10px 0 10px 0;
+  position: relative;
+}
+#header .bg-menu-top{
+  float: right;
+  width: calc(100% - 623px);
+  text-align: right;
+}
+#header #logo .khungAnh:before{
+  padding-bottom: 22%;
+}
+#header .bg-menu-top .menu{
+  padding: 0;
+  margin: 0;
+  float: right;
+  margin-top: 12px;
+ng
+}
+#header .bg-menu-top .menu li{
+  float: left;
+  padding: 0 15px;
+  position: relative;
+  font-size: 14px;
+  font-family: 'SegoeUI';
+}
+#header .bg-menu-top .menu li:hover,#header .bg-menu-top .menu li.active{
+  color: #068f33;
+}
+#header .bg-menu-top .menu li:after{
+  width: 1px;
+  height: 11px;
+  background: #999999;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 8px;
+}
+#header .bg-menu-top .menu li:last-child:after{
+  width: 0;
+}
+#header .bg-menu-top .menu li:last-child{
+  padding-right: 0;
+}
+#header .bg-menu-top .menu li:first-child{
+  padding-left: 0;
+}
+#header .bg-menu-top .search {
+  position: relative;
+  margin-top: 26px;
+}
+#header .bg-menu-top .search input{
+  font-style: italic;
+  font-family: 'SegoeUI';
+  font-size: 14px;
+  height: 34px;
+  width: 260px;
+  border: 1px solid #999999;
+  border-radius: 3px;
+  padding-left: 10px;
+  color: #333;
+}
+#header .bg-menu-top .search input::-moz-placeholder {
+  color: #666;
+  opacity: 1;
+}
+#header .bg-menu-top .search input::-webkit-input-placeholder {
+  color: #666;
+  opacity: 1;
+}
+#header .bg-menu-top .search a{
+  position: absolute;
+  right: 10px;
+  top: 5px;
+}
+#header .top-head{
+  background: url(/Images/bg-head.png) no-repeat;
+  background-size: 100% 100%;
+}
+#header #menu-main{
+  background: #068f33;
+  border-top: 1px solid #e8f1eb;
+  position: relative;
+}
+#header #menu-main ul{
+  padding: 0;
+  margin: 0;
+}
+#header #menu-main ul li{
+  float: left;
+  color: #fff;
+  font-family: 'Roboto-Regular';
+  font-size: 17px;
+  text-transform: uppercase;
+  padding: 15px 23px 14px 23px; 
+  position: relative;
+  font-weight: 500
+}
+#header #menu-main ul li:hover{
+  background: #006421;
+}
+#header #menu-main ul li:after{
+  width: 20px;
+  height: 70px;
+  background: url(bg-li.png);
+  content: "";
+  position: absolute;
+  right: 0;
+  top: -4px;
+}
+#header #menu-main ul li:first-child:before{
+  width: 20px;
+  height: 70px;
+  background: url(bg-li.png);
+  content: "";
+  position: absolute;
+  left: -20px;
+  top: -4px;
+}
+#header #hotline{
+  display: none;
+  float: right;
+  margin-right: 20px;
+  margin-top: 6px;
+}
+#header #hotline a{
+   color: #666666;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-family: 'SegoeUI';
+  background: url(hotline.png) no-repeat left 8px;
+  padding-left: 35px;
+  display: block;
+  line-height: 20px;
+}
+#header #hotline a span{
+  display: block;
+ font-size: 20px;
+  color:  #f30000;
+  font-family: 'Roboto-Bold';
+  
+}
+#header #right-menu.iconmenu{
+  width: 55px;
+  height: 54px;
+  background: url(bar.png) no-repeat left top;
+  background-size: 100% 100%;
+  display: none;
+  float: left;
+}
+/* Submenu */
+#header #menu-main ul li:hover > ul  {
+  display: inline-block;
+}
+#header #menu-main ul li ul {
+  position: absolute;
+  padding: 0;
+  display: none;
+  left: 0px;
+  margin: 0;
+  top: 51px;
+  width: 238px;
+  padding-top: 8px;
+  padding: 0;
+  z-index: 1340;
+  border-top: 1px solid rgba(255,255,255,0.4);
+}
+#header #menu-main ul li ul li:first-child:before{
+  width: 13px;
+  height: 7px;
+  background: url(../images/bgli.png) no-repeat;
+  position: absolute;
+  content: "";
+  top: -8px;
+  left: 90px;
+  right: 0;
+  z-index: 13400;
+}
+#header #menu-main ul li ul li {
+  position: relative;
+  width: 100%;
+  float: none;
+  margin-top: 0px !important;
+  font-family: 'SegoeUI' !important;
+  font-size: 15px !important;
+  padding: 13px 10px 10px 18px !important;
+  background: #068f33;
+  text-transform: none;
+  border-bottom: 1px solid #006421;
+}
+#header #menu-main ul li ul li:last-child{
+  border: none;
+}
+#header #menu-main ul li ul li:hover{
+  color: #fff ;
+  background-color: #006421;
+  
+}
+#header #menu-main ul li ul li:hover a{
+  color: #fff 
+}
+#header #menu-main ul li ul li a {
+  color: #fff;
+  font-size: 15px;
+  z-index: 100;
+  display: block;
+  text-transform: none;
+  line-height: 20px;
+}
+#header #menu-main ul li ul li ul {top: -1px;left: 100%}
